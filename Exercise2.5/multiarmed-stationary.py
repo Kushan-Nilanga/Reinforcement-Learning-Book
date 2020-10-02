@@ -8,7 +8,7 @@ arms = [i for i in range(10)]
 Q = [0 for i in range(10)]
 
 # epsilon value
-e = 0.1
+e = 0.005
 
 N = [0 for i in range(10)]
 
@@ -23,7 +23,7 @@ print(f"N {N}")
 mse = []
 
 # while(True):
-for i in range(500):
+for i in range(10000):
     id = numpy.argmax(Q)
 
     # calculating the probs
