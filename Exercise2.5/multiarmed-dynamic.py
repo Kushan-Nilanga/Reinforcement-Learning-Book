@@ -1,6 +1,5 @@
 import numpy
 import matplotlib.pyplot as plt
-
 # arms(actions) if the problem
 # this simple bandit has 10 possible actions
 arms = [i for i in range(10)]
